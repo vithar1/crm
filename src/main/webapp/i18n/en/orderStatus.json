@@ -1,0 +1,10 @@
+{
+  "crmApp": {
+    "OrderStatus": {
+      "null": "",
+      "GOING": "GOING",
+      "ACCEPTED": "ACCEPTED",
+      "COMPLETED": "COMPLETED"
+    }
+  }
+}
