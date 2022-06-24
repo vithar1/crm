@@ -4,6 +4,7 @@
 body {
   background: #fafafa;
   margin: 0;
+  overflow-x: hidden;
 }
 
 a {
@@ -23,8 +24,10 @@ a {
 
 .app-container {
   box-sizing: border-box;
+  min-height: 99vh;
   .view-container {
     width: 100%;
+    padding-left: 350px!important;
     height: calc(100% - 40px);
     overflow-y: auto;
     overflow-x: hidden;
@@ -310,3 +313,7 @@ http://stackoverflow.com/questions/23436430/bootstrap-3-input-group-100-width */
 }
 
 /* jhipster-needle-scss-add-main JHipster will add new css style */
+
+.main-section {
+  position: relative;
+}

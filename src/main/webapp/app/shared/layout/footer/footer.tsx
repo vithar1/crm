@@ -2,16 +2,11 @@ import './footer.scss';
 
 import React from 'react';
 import { Translate } from 'react-jhipster';
-import { Col, Row } from 'reactstrap';
-
+import { Col, Row, CardLink, CardHeader} from 'reactstrap';
 const Footer = () => (
   <div className="footer page-content">
     <Row>
-      <Col md="12">
-        <p>
-          <Translate contentKey="footer">Your footer</Translate>
-        </p>
-      </Col>
+            CRM: developed for kourse work
     </Row>
   </div>
 );

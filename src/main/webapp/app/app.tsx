@@ -56,9 +56,9 @@ export const App = () => {
               <AppRoutes />
             </ErrorBoundary>
           </Card>
-          <Footer />
         </div>
       </div>
+      <Footer />
     </Router>
   );
 };
