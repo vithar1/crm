@@ -15,9 +15,10 @@ export const Home = () => {
         <h2>
           <Translate contentKey="home.title">Welcome to crm system</Translate>
         </h2>
-        <div>
-          klj
-        </div>
+        <p>Welcome to the main page of the crm system.</p>
+        <p>
+        You can add, modify, edit products using this system. In order to work with goods, select the entity item in the left menu. Next, open this item and select the required entity from the list. Next, a page will be opened to change this entity.
+        </p>
       </Col>
     </Row>
   );
